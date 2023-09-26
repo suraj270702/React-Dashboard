@@ -1,0 +1,33 @@
+.menu {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    .item {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+            
+            .title {
+                font-size: 15px;
+                font-weight: 400;
+            }
+            .icon{
+                filter: invert(100%);
+            }
+
+            .listItems{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                padding: 10px;
+                border-radius: 5px;
+
+                &:hover{
+                    background-color: rgb(202, 195, 195);
+                }
+            }
+        
+    }
+}
